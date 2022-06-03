@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #b8b8b8;
+  --secondary-color: #f28c28;
+  --bg-color: #fff;
+  --text-color: #000;
+  --bg-color-alt: #fff;
+  --rounded-corner: 0.5rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header-top {
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+
+.header-top .header-wrapper {
+  height: auto;
+}
+
+.header-top .header-wrapper .header-top-social {
+  color: var(--primary-color);
+}
+
+.header-top .header-wrapper .header-top-social ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header-top .header-wrapper .header-top-social ul li a {
+  color: var(--primary-color);
+}
+
+.header-top .header-wrapper .header-top-contact {
+  color: var(--primary-color);
+}
+
+.header-top .header-wrapper .header-top-contact ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header-top .header-wrapper .header-top-contact ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  color: inherit;
+}
+/*# sourceMappingURL=style.css.map */
