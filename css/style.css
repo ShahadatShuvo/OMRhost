@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #b8b8b8;
-  --secondary-color: #f28c28;
+  --primary-color: #119ee6;
+  --secondary-color: #b8b8b8;
   --bg-color: #fff;
   --text-color: #000;
   --bg-color-alt: #fff;
@@ -31,7 +31,7 @@ body {
 }
 
 .header-top .header-wrapper .header-top-social {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .header-top .header-wrapper .header-top-social ul {
@@ -41,11 +41,11 @@ body {
 }
 
 .header-top .header-wrapper .header-top-social ul li a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .header-top .header-wrapper .header-top-contact {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .header-top .header-wrapper .header-top-contact ul {
@@ -55,7 +55,114 @@ body {
 }
 
 .header-top .header-wrapper .header-top-contact ul li a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-main {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.header-main .navbar .navbar-collapse .navbar-nav .items {
+  color: #000;
+  font-weight: 500;
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+/****************************** 
+    Landing page design 
+*******************************/
+.landing-page .carousel-control-prev-icon {
+  background-color: var(--primary-color);
+  height: 6rem;
+  position: absolute;
+  left: 0;
+}
+
+.landing-page .carousel-control-next-icon {
+  background-color: var(--primary-color);
+  height: 6rem;
+  position: absolute;
+  right: 0;
+}
+
+.landing-page .btn-bg {
+  background-color: var(--primary-color);
+}
+
+.landing-page .heading-font {
+  font-weight: 600;
+}
+
+.services {
+  margin: 0;
+  padding: 0;
+}
+
+.services .services-wrapper .box-wrapper {
+  background-color: var(--primary-color);
+  margin-top: 50px;
+}
+
+.services .services-wrapper .box-wrapper:hover {
+  margin-top: 0;
+  -webkit-transition: .4s ease-out;
+  transition: .4s ease-out;
+  background-color: #fff;
+  color: #000;
+}
+
+.services .services-wrapper .box-wrapper:hover .box {
+  color: #000;
+}
+
+.services .services-wrapper .box-wrapper:hover .box .box-content {
+  color: #000;
+}
+
+.services .services-wrapper .box-wrapper .box {
+  position: relative;
+}
+
+.services .services-wrapper .box-wrapper .box .icon-box-wrap {
+  position: absolute;
+  top: -30px;
+  left: 20%;
+}
+
+.services .services-wrapper .box-wrapper .box .icon-box-wrap .icon-box-circle {
+  background-color: #119ee6;
+  padding: 10px;
+  border: 2px solid gray;
+  -webkit-box-shadow: 0 0 0 3px #fff inset;
+          box-shadow: 0 0 0 3px #fff inset;
+  width: 50px;
+}
+
+.services .services-wrapper .box-wrapper .box .icon-box-wrap .icon-box-circle .icon {
+  color: black;
+}
+
+.services .services-wrapper .box-wrapper .box .box-content {
+  color: #fff;
+}
+
+.services .services-wrapper .box-wrapper .box .box-content a {
+  color: #fff;
   text-decoration: none;
   color: inherit;
 }

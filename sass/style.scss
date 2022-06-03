@@ -1,6 +1,7 @@
 :root {
-  --primary-color: #b8b8b8;
-  --secondary-color: #f28c28;
+  // --primary-color: #2b98db;
+  --primary-color: #119ee6;
+  --secondary-color: #b8b8b8;
   --bg-color: #fff;
   --text-color: #000;
   --bg-color-alt: #fff;
@@ -17,6 +18,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+// Header-top design
 .header-top {
   margin: 0;
   padding: 0;
@@ -24,27 +26,129 @@ body {
   .header-wrapper {
     height: auto;
     .header-top-social {
-      color: var(--primary-color);
+      color: var(--secondary-color);
       ul {
         margin: 0;
         padding: 0;
         list-style-type: none;
         li {
           a {
-            color: var(--primary-color);
+            color: var(--secondary-color);
           }
         }
       }
     }
     .header-top-contact {
-      color: var(--primary-color);
+      color: var(--secondary-color);
       ul {
         margin: 0;
         padding: 0;
         list-style-type: none;
         li {
           a {
-            color: var(--primary-color);
+            color: var(--secondary-color);
+            text-decoration: none;
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header-main {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  .navbar {
+    .navbar-collapse {
+      .navbar-nav {
+        .items {
+          color: #000;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+/****************************** 
+    Landing page design 
+*******************************/
+
+.landing-page {
+  .carousel-control-prev-icon {
+    background-color: var(--primary-color);
+    height: 6rem;
+    position: absolute;
+    left: 0;
+  }
+  .carousel-control-next-icon {
+    background-color: var(--primary-color);
+    height: 6rem;
+    position: absolute;
+    right: 0;
+  }
+  .btn-bg {
+    background-color: var(--primary-color);
+  }
+  .heading-font {
+    font-weight: 600;
+  }
+}
+
+// services section
+.services {
+  margin: 0;
+  padding: 0;
+  .services-wrapper {
+    .box-wrapper {
+      background-color: var(--primary-color);
+      margin-top: 50px;
+      &:hover {
+        margin-top: 0;
+        transition: .4s ease-out;
+        background-color: #fff;
+        color: #000;
+        .box {
+          color: #000;
+          .box-content {
+            color: #000;
+          }
+        }
+      }
+      .box {
+        position: relative;
+        .icon-box-wrap {
+          position: absolute;
+          top: -30px;
+          left: 20%;
+          .icon-box-circle {
+            background-color: #119ee6;
+            padding: 10px;
+            border: 2px solid gray;
+            box-shadow: 0 0 0 3px #fff inset;
+            width: 50px;
+            .icon {
+              color: black;
+            }
+          }
+        }
+        .box-content {
+          color: #fff;
+          a {
+            color: #fff;
             text-decoration: none;
             color: inherit;
           }
