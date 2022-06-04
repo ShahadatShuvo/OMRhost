@@ -57,7 +57,6 @@ let ClientsReview = [
   },
 ];
 
-console.log("allClients: ", allClients);
 console.log("Developed By: Shahadat Hossain");
 
 function onChangeClientInfo(pos) {
@@ -98,3 +97,5 @@ for (let n of counters) {
   };
   updateCount();
 }
+// End Section- Project Part Counter generator
+ 

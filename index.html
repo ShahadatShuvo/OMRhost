@@ -25,7 +25,7 @@
     />
 
     <!-- font awesome  -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -35,8 +35,17 @@
     <link
       href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css"
       rel="stylesheet"
-    />
+    /> -->
     <!-- Links  -->
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
 
     <title>OMRhost</title>
@@ -682,7 +691,7 @@
     <!--    offer part start-->
     <section id="offer">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-12">
             <div class="common-heading text-center">
               <p>choose your best pricing package</p>
@@ -691,12 +700,12 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-6 offset-md-3 offset-sm-0">
+        <div class="row justify-content-center">
+          <div class="col-10 col-md-8 col-lg-5 text-center">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link offer-link"
                   id="pills-home-tab"
                   data-toggle="pill"
                   href="#pills-home"
@@ -710,7 +719,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link offer-link"
                   id="pills-profile-tab"
                   data-toggle="pill"
                   href="#pills-profile"
@@ -724,7 +733,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link offer-link"
                   id="pills-contact-tab"
                   data-toggle="pill"
                   href="#pills-contact"
@@ -739,7 +748,7 @@
 
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link offer-link"
                   id="android-tab"
                   data-toggle="pill"
                   href="#android"
@@ -754,7 +763,7 @@
 
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link offer-link"
                   id="gallery-tab"
                   data-toggle="pill"
                   href="#gallery"
@@ -777,10 +786,10 @@
                 class="tab-pane fade show active"
                 id="pills-home"
                 role="tabpanel"
-                aria-labelledby="pills-home-tab" 
+                aria-labelledby="pills-home-tab"
               >
                 <div class="row">
-                  <div class="col-md-7">
+                  <div class="col-12 col-md-7 mb-5">
                     <div class="tableft">
                       <h5>Graphic Design</h5>
                       <p>
@@ -809,8 +818,11 @@
                       ></a>
                     </div>
                   </div>
-                  <div class="col-md-5">
-                    <div class="right-img">
+                  <div class="col-8 col-md-5">
+                    <div
+                      class="right-img d-flex justify-content-center align-items-center"
+                      style="height: 100%"
+                    >
                       <img
                         src="images/tabimg/tab-right-img.jpg"
                         alt="img"
@@ -822,13 +834,13 @@
               </div>
 
               <div
-                class="tab-pane fade"
+                class="tab-pane fade show active"
                 id="pills-profile"
                 role="tabpanel"
                 aria-labelledby="pills-profile-tab"
               >
                 <div class="row">
-                  <div class="col-md-7">
+                  <div class="col-12 col-md-7 mb-5">
                     <div class="tableft">
                       <h5>web Design</h5>
                       <p>
@@ -858,9 +870,12 @@
                     </div>
                   </div>
                   <div class="col-md-5">
-                    <div class="right-img">
+                    <div
+                      class="right-img d-flex justify-content-center align-items-center"
+                      style="height: 100%"
+                    >
                       <img
-                        src="images/tabimg/tab-right-img.jpg"
+                        src="images/tabimg/Illustration-PNG-Free-Image.png"
                         alt="img"
                         class="img-fluid"
                       />
@@ -870,13 +885,13 @@
               </div>
 
               <div
-                class="tab-pane fade"
+                class="tab-pane fade show active"
                 id="pills-contact"
                 role="tabpanel"
                 aria-labelledby="pills-contact-tab"
               >
                 <div class="row">
-                  <div class="col-md-7">
+                  <div class="col-12 col-md-7 mb-5">
                     <div class="tableft">
                       <h5>development</h5>
                       <p>
@@ -906,9 +921,12 @@
                     </div>
                   </div>
                   <div class="col-md-5">
-                    <div class="right-img">
+                    <div
+                      class="right-img d-flex justify-content-center align-items-center"
+                      style="height: 100%"
+                    >
                       <img
-                        src="images/tabimg/tab-right-img.jpg"
+                        src="images/tabimg/ttrr.jpg"
                         alt="img"
                         class="img-fluid"
                       />
@@ -918,13 +936,13 @@
               </div>
 
               <div
-                class="tab-pane fade"
+                class="tab-pane fade show active"
                 id="android"
                 role="tabpanel"
                 aria-labelledby="android-tab"
               >
                 <div class="row">
-                  <div class="col-md-7">
+                  <div class="col-12 col-md-7 mb-5">
                     <div class="tableft">
                       <h5>android</h5>
                       <p>
@@ -954,9 +972,12 @@
                     </div>
                   </div>
                   <div class="col-md-5">
-                    <div class="right-img">
+                    <div
+                      class="right-img d-flex justify-content-center align-items-center"
+                      style="height: 100%"
+                    >
                       <img
-                        src="images/tabimg/tab-right-img.jpg"
+                        src="images/tabimg/web-1.jpg"
                         alt="img"
                         class="img-fluid"
                       />
@@ -966,13 +987,13 @@
               </div>
 
               <div
-                class="tab-pane fade"
+                class="tab-pane fade show active"
                 id="gallery"
                 role="tabpanel"
                 aria-labelledby="gallery-tab"
               >
                 <div class="row">
-                  <div class="col-md-7">
+                  <div class="col-12 col-md-7 mb-5">
                     <div class="tableft">
                       <h5>gallery</h5>
                       <p>
@@ -1002,7 +1023,10 @@
                     </div>
                   </div>
                   <div class="col-md-5">
-                    <div class="right-img">
+                    <div
+                      class="right-img d-flex justify-content-center align-items-center"
+                      style="height: 100%"
+                    >
                       <img
                         src="images/tabimg/tab-right-img.jpg"
                         alt="img"
@@ -1169,7 +1193,7 @@
             <h2>What Our Client's Say</h2>
           </div>
           <div class="row justify-content-center">
-            <div class="col-3">
+            <div class="col-8 col-md-5 col-lg-3">
               <div class="client-info shadow p-1 mb-2 bg-body rounded">
                 <div class="row client">
                   <div class="col-3">
@@ -1223,7 +1247,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6 ps-5">
+            <div class="col-12 col-md-6 pt-2 ps-5">
               <div class="client-comments">
                 <h4 id="title">It was a great experience</h4>
                 <div class="ratting">
@@ -1315,8 +1339,8 @@
                 <div>
                   <p class="me-3 m-0 text-white-50">Follow Us</p>
                 </div>
-                <div class="footer-icons">
-                  <i class="fa-brands fa-facebook-f me-2"></i>
+                <div class="text-light">
+                  <i class="fa-brands fa-facebook me-2"></i>
                   <i class="fa-brands fa-twitter me-2"></i>
                   <i class="fa-brands fa-linkedin-in me-2"></i>
                   <i class="fa-brands fa-google-plus-g me-2"></i>
@@ -1328,26 +1352,25 @@
               <h3 class="text-white mb-3">Usefull Links</h3>
               <ul class="list-unstyled text-white-50">
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Terms & Condition
+                  <i class="fa-solid fa-hand-pointer"></i> Terms & Condition
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Knoledge Based
+                  <i class="fa-solid fa-hand-pointer"></i> Knoledge Based
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Live Chat/Support
+                  <i class="fa-solid fa-hand-pointer"></i> Live Chat/Support
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Transfer Your
-                  Name
+                  <i class="fa-solid fa-hand-pointer"></i> Transfer Your Name
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Traffic Booster
+                  <i class="fa-solid fa-hand-pointer"></i> Traffic Booster
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Bilder Great Team
+                  <i class="fa-solid fa-hand-pointer"></i> Bilder Great Team
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Data Center
+                  <i class="fa-solid fa-hand-pointer"></i> Data Center
                 </li>
               </ul>
             </div>
@@ -1355,26 +1378,25 @@
               <h3 class="text-white mb-3">Services</h3>
               <ul class="list-unstyled text-white-50">
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Terms & Condition
+                  <i class="fa-solid fa-hand-pointer"></i> Terms & Condition
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Knoledge Based
+                  <i class="fa-solid fa-hand-pointer"></i> Knoledge Based
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Live Chat/Support
+                  <i class="fa-solid fa-hand-pointer"></i> Live Chat/Support
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Transfer Your
-                  Name
+                  <i class="fa-solid fa-hand-pointer"></i> Transfer Your Name
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Traffic Booster
+                  <i class="fa-solid fa-hand-pointer"></i> Traffic Booster
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Bilder Great Team
+                  <i class="fa-solid fa-hand-pointer"></i> Bilder Great Team
                 </li>
                 <li class="mb-2 footer-link">
-                  <i class="fa-solid fa-hand-point-right"></i> Data Center
+                  <i class="fa-solid fa-hand-pointer"></i> Data Center
                 </li>
               </ul>
             </div>
@@ -1405,11 +1427,22 @@
               <p class="text-white-50 mt-3">WE Accept:</p>
               <img
                 class="img-fluid gatway-img"
-                src="./images/payment_gatway.png"
+                src="./images//payment_gatway.png"
                 alt=""
               />
             </div>
           </div>
+        </div>
+        <hr style="color: #999999" />
+        <div>
+          <p class="text-white-50 text-center pb-3">
+            <small
+              >&copy; Copyright 2017
+              <span style="color: #2b98db">Shahadat Hossain</span>. All Right
+              Recurved. Design With
+              <span style="color: #2b98db">&#10084;</span> By Themelooks</small
+            >
+          </p>
         </div>
       </div>
     </footer>
@@ -1418,5 +1451,6 @@
     <script src="./js/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core JS  -->
     <script src="./js/app.js"></script>
+    <script src="./js/offer.js"></script>
   </body>
 </html>
