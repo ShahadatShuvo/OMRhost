@@ -55,7 +55,7 @@ let ClientsReview = [
     vitae?`,
     ratings: 3,
   },
-];
+]; 
 allClients[0].style.backgroundColor = "#63b0df";
 console.log("Developed By: Shahadat Hossain");
 
