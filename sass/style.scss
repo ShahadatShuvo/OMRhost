@@ -79,7 +79,7 @@ body {
           .vertical-line {
             position: absolute;
             height: 30px;
-            width: 2px;
+            width: 2px; 
             background-color: #000;
             top: -48%;
             left: 63%;
@@ -752,4 +752,9 @@ body {
   font-weight: 300;
   font-size: 14px;
   text-align: left;
+}
+
+
+.footer-1{
+  background-color: #119ee6;
 }
