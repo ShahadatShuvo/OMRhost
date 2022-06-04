@@ -73,10 +73,58 @@ body {
           color: #000;
           font-weight: 500;
         }
+        .profile-pic {
+          width: 50px;
+          position: relative;
+          .vertical-line {
+            position: absolute;
+            height: 30px;
+            width: 2px;
+            background-color: #000;
+            top: -48%;
+            left: 63%;
+          }
+          a {
+            position: absolute;
+            border: 1px solid black;
+            padding: 5px;
+            top: 40%;
+            left: 0%;
+            height: 70px;
+            width: 70px;
+            padding: 20px;
+            color: #fff;
+            background-color: #119ee6;
+            border: 2px solid gray;
+            box-shadow: 0 0 0 3px #fff inset;
+            &:hover { 
+              background-color: #086897;
+              opacity: 10;
+            }
+            &:active{
+              background-color: #086897;
+              opacity: 10;
+            }
+            i{
+              margin: 0;
+              padding: 0;
+              font-size: 25px;
+            }
+            i:hover {
+              opacity: 8;
+              color: rgb(191, 186, 186);
+              background-color: #086897;
+            }
+          }
+        }
       }
     }
   }
 }
+
+// navbar
+
+// navbar End
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
     display: none;
@@ -485,7 +533,7 @@ body {
 
 /*offer part start*/
 #offer {
-  padding: 90px 0px;  
+  padding: 90px 0px;
   background: #f9f9f9;
 }
 #offer .common-heading {

@@ -79,6 +79,58 @@ body {
   font-weight: 500;
 }
 
+.header-main .navbar .navbar-collapse .navbar-nav .profile-pic {
+  width: 50px;
+  position: relative;
+}
+
+.header-main .navbar .navbar-collapse .navbar-nav .profile-pic .vertical-line {
+  position: absolute;
+  height: 30px;
+  width: 2px;
+  background-color: #000;
+  top: -48%;
+  left: 63%;
+}
+
+.header-main .navbar .navbar-collapse .navbar-nav .profile-pic a {
+  position: absolute;
+  border: 1px solid black;
+  padding: 5px;
+  top: 40%;
+  left: 0%;
+  height: 70px;
+  width: 70px;
+  padding: 20px;
+  color: #fff;
+  background-color: #119ee6;
+  border: 2px solid gray;
+  -webkit-box-shadow: 0 0 0 3px #fff inset;
+          box-shadow: 0 0 0 3px #fff inset;
+}
+
+.header-main .navbar .navbar-collapse .navbar-nav .profile-pic a:hover {
+  background-color: #086897;
+  opacity: 10;
+}
+
+.header-main .navbar .navbar-collapse .navbar-nav .profile-pic a:active {
+  background-color: #086897;
+  opacity: 10;
+}
+
+.header-main .navbar .navbar-collapse .navbar-nav .profile-pic a i {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+.header-main .navbar .navbar-collapse .navbar-nav .profile-pic a i:hover {
+  opacity: 8;
+  color: #bfbaba;
+  background-color: #086897;
+}
+
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
     display: none;
